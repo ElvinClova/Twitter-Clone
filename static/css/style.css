@@ -55,39 +55,77 @@ body {
 .post_form {
   padding: 20px 40px;
   border-bottom: 1px solid #ccc;
-  position: relative;
-  text-align: left;
+  /* position: relative;
+  text-align: left; */
 }
 
-.post_form .forum  {
+/* .post_form .forum  {
   position: relative;
   
+} */
 
-}
 .post_form input {
-  width: 66%;
+  width: 80%;
   margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+
 }
 
-.post_form input[type="submit"] {
-  width: 67.5%;
+/* .post_form input[type="button"] {
+  width: 80px;
+  height: 20px;
   margin-bottom: 10px;
-}
+  font-size: medium;
+  position: relative;
+  right: 65px;
+  background-color: rgb(155, 198, 228);
+  border: lightsteelblue solid 1px;
+} */
 
-.post_form input[type="button"] {
-  width: 67.5%;
-  margin-bottom: 10px;
-}
+/* .post_form input[type="button"]:hover {
+  
+  background-color: rgb(27, 80, 132);
+  color: aliceblue;
+} */
 
-.post_form input[type="text"]{
-  width: 66%;
+/* .post_form input[type="text"]{
+  width: 66.5%;
   margin-bottom: 10px;
-}
+  background-color: rgb(155, 198, 228);
+  border: lightsteelblue 1px solid;
+  display: inline-block; */
+  
+
 
 .post_form textarea {
   width: 63.5%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border:  1px solid #ccc;
+}
+
+
+#uploadimage{
+  width: 40%;
+  padding-top: 20px;
+  border: hidden;
+  overflow: hidden;
+  background-color: none;
+
+}
+
+#btn{
+  width: 20%;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5%;
+  border: 1px solid transparent;
+  padding: 9px;
+  border: 1px solid rgb(29, 161, 242);
+  cursor: pointer;
+  padding-bottom: 11px;
 }
 
 .posts ul {
@@ -97,7 +135,8 @@ body {
   position: relative;
   display: flex;
   border-bottom: 1px solid #ccc;
-  padding: 17px;
+  padding: 20px 40px;
+  list-style: none;
 }
 
 .posts li .menu_icon img {

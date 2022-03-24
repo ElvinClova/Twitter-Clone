@@ -17,10 +17,10 @@
             {% csrf_token %}
             <!-- <section class="forum"> -->
             <input type="text" name="name" placeholder="Name" required>
-            <textarea name="body" placeholder="Tell us anything." required></textarea>
+            <textarea name="body" placeholder="Tell us anything." rows="5" required></textarea>
             <input type="file" name="image" id="uploadimage">
 
-            <input type="submit" value="Post"/>
+            <input id="btn" type="submit" value="Tweet"/>
             
         </form>
             </section>
